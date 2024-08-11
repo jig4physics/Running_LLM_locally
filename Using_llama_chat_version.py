@@ -1,0 +1,23 @@
+from llama_cpp import Llama
+
+llm = Llama(
+      model_path="Lexi-Llama-3-8B-Uncensored_Q4_K_M.gguf",
+      n_gpu_layers=8, # Uncomment to use GPU acceleration
+      verbose=False,
+      chat_format="llama-2"
+)
+reply = llm.create_chat_completion(
+messages = [
+                  {
+                        "role": "system", 
+                        "content": "You are an assistant who perfectly describes topic."
+                  },
+                  {
+                        "role": "user",
+                        "content": "Describe Machine Learning."
+                  }
+      ]
+)
+
+print("\n")
+print(f"Answer of Task: {taskID}  : {reply['choices'][0]['message']['content']}")
