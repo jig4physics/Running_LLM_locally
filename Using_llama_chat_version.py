@@ -20,4 +20,4 @@ messages = [
 )
 
 print("\n")
-print(f"Answer of Task: {taskID}  : {reply['choices'][0]['message']['content']}")
+print(f"Answer : {reply['choices'][0]['message']['content']}")
