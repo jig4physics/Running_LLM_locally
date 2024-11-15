@@ -2,7 +2,7 @@ from llama_cpp import Llama
 
 llm = Llama(
       model_path="Lexi-Llama-3-8B-Uncensored_Q4_K_M.gguf",
-      n_gpu_layers=8, # Uncomment to use GPU acceleration
+      n_gpu_layers=8,
       verbose=False,
       chat_format="llama-2"
 )
