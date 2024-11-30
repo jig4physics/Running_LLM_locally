@@ -14,7 +14,7 @@ This repository contains a collection of five projects showcasing different AI a
      - Supports GPU acceleration and customizable parameters like context length and random seed.
    - **Script**: Demonstrates creating a conversational assistant for answering questions.
 
-   **[Learn More](README_parallel.md)**
+   **[Learn More](LLAMA_CHAT/README.md)**
 
 ---
 
@@ -25,7 +25,7 @@ This repository contains a collection of five projects showcasing different AI a
      - Enables parallel chat completion tasks for improved efficiency.
    - **Script**: Handles multiple Llama chat completions simultaneously.
 
-   **[Learn More](README_parallel.md)**
+   **[Learn More](LLAMA_CPP/README.md)**
 
 ---
 
@@ -36,7 +36,7 @@ This repository contains a collection of five projects showcasing different AI a
      - Supports mixed-precision computation (`bfloat16`) and automatic device mapping.
    - **Script**: Generates coherent responses to user prompts.
 
-   **[Learn More](README_transformers.md)**
+   **[Learn More](USING%20Transfer/README.md)**
 
 ---
 
@@ -48,7 +48,7 @@ This repository contains a collection of five projects showcasing different AI a
      - Converts PyTorch tensors to NumPy arrays for compatibility.
    - **Script**: Includes a `Transcription` class for processing audio waveforms.
 
-   **[Learn More](README_whisper.md)**
+   **[Learn More](USING%20WISPER/README.md)**
 
 ---
 
